@@ -5,9 +5,9 @@ from snmp_helper import snmp_get_oid, snmp_extract
 import snmp_helper
 
 def get_elements():
-    ip_addr = '50.242.94.227'
-    COMMUNITY_STRING = 'galileo'
-    snmp_port1 = 7961
+    ip_addr = '' #Enter the Ip address of the device
+    COMMUNITY_STRING = '' #Enter the SNMP Community string of the device
+    snmp_port1 =   #Enter the port number to call out the SNMP OIDs on the device.. 
     a_device = (ip_addr, COMMUNITY_STRING, snmp_port1)
     #print a_device
     return a_device
